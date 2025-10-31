@@ -5,7 +5,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './Home.css'; 
 
-const API_URL = 'http://https://blog-api-6-3nu2.onrender.com/posts';
+const API_URL = 'http://https://blog-api-7-kssa.onrender.com/posts';
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
