@@ -86,3 +86,26 @@
   transform: none;
   box-shadow: none;
 }
+@media (max-width: 768px) {
+  .create-post-container {
+    padding: 10px;
+    max-width: 100%; 
+  }
+
+  .form-wrapper {
+    padding: 20px;
+    box-shadow: none; 
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .form-title {
+  
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+}

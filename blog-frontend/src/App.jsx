@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import navbar from './components/navbar'; 
-import home from './pages/home';         
-import createPost from './pages/createpost'; 
+import Navbar from './components/navbar.jsx'; 
+import Home from './pages/home.jsx';         
+import CreatePost from './pages/createpost.jsx'; 
 import './App.css'; 
 
 function App() {

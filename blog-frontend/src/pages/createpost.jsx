@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'; 
-import './createPost.css'; 
+import './createpost.css'; 
 
-const API_URL = import .meta.env.VITE_API_URL || 'http://localhost:3000';
+const API_URL = 'http://https://blog-api-7-kssa.onrender.com/posts';
 
 const CreatePost = () => {
   const [title, setTitle] = useState('');
