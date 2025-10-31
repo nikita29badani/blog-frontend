@@ -1,9 +1,10 @@
 
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar'; 
-import Home from './pages/Home';         
-import CreatePost from './pages/CreatePost'; 
+import navbar from './components/navbar'; 
+import home from './pages/home';         
+import createPost from './pages/createpost'; 
+import './App.css'; 
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} /> 
+          <Route path="/" element={<Home />} /> -
           
         
           <Route path="/create" element={<CreatePost />} />
